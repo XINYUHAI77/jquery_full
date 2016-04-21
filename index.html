@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>商城主页</title>
+<link rel="stylesheet" href="./css/base.css" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.easie.js"></script>
+<script type="text/javascript" src="res/js/FullFocus.js"></script>
+</head>
+
+<body>
+
+<!--banner begin-->
+<div class="banner min_width" id="one" style="">
+<span class="foucL fouc"></span>
+ <ul>
+   <li style="background: url(./images/banner.jpg) no-repeat center top; height:454px;"><a href=""></a></li>
+   <li style="background: url(./images/banner.jpg) no-repeat center top; height:454px;"><a href=""></a></li>
+   <li style="background: url(./images/banner.jpg) no-repeat center top; height:454px;"><a href=""></a></li>
+ </ul>
+ <span class="foucR fouc"></span>
+</div>
+<!--banner end-->
+
+
+<!--banner begin-->
+<div class="banner min_width" id="tow" style=" margin-top: 60px;">
+    <span class="foucL fouc"></span>
+    <ul>
+        <li style="background: url(./images/banner.jpg) no-repeat center top; height:454px;"><a href=""></a></li>
+        <li style="background: url(./images/banner.jpg) no-repeat center top; height:454px;"><a href=""></a></li>
+        <li style="background: url(./images/banner.jpg) no-repeat center top; height:454px;"><a href=""></a></li>
+    </ul>
+    <span class="foucR fouc"></span>
+</div>
+<!--banner end-->
+<script>
+    $(function(){
+        Scroll({
+            dome:$('#one'),
+        });
+
+        Scroll({
+            dome:$('#tow'),
+            times: 4000,
+        });
+    })
+</script>
+</body>
+</html>
